@@ -2,7 +2,8 @@
   "name": "hardhat-project",
   "scripts": {
     "prettier": "prettier --write --plugin=prettier-plugin-solidity 'contracts/**/*.sol'",
-    "lint": "prettier --list-different --plugin=prettier-plugin-solidity 'contracts/**/*.sol'"
+    "lint": "prettier --list-different --plugin=prettier-plugin-solidity 'contracts/**/*.sol'",
+    "deploy": "npx hardhat run scripts/deploy.ts --network sepolia"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^4.0.0",

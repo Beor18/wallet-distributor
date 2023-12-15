@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 // Builder Fernando (Beor)
-pragma solidity ^0.8.20;
+pragma solidity ^0.8.7;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
