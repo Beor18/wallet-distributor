@@ -1,5 +1,7 @@
 # Wallet Distributor
 
+Builder: Fernando Lopez
+
 ```shell
 npx hardhat help
 npx hardhat test
